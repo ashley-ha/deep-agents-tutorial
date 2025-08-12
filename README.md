@@ -28,7 +28,7 @@ result = agent.invoke({"messages": [{"role": "user", "content": "Your task"}]})
 List of functions or LangChain `@tool` objects your agent can use.
 
 ### Instructions (Required)
-Custom behavior guidelines that work with the built-in [system prompt]([src/deepagents/prompts.py](https://github.com/hwchase17/deepagents/blob/master/src/deepagents/prompts.py)).
+Custom behavior guidelines that work with the built-in [system prompt](https://github.com/hwchase17/deepagents/blob/master/src/deepagents/prompts.py).
 
 ### Sub-agents (Optional)
 Create specialized agents for specific tasks:
